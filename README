@@ -1,14 +1,15 @@
-MongoDB README
+# [MongoDB](https://www.mongodb.com/)
+
 
 Welcome to MongoDB!
 
-COMPONENTS
+## Components
 
   mongod - The database server.
   mongos - Sharding router.
   mongo  - The database shell (uses interactive javascript).
 
-UTILITIES
+## Utilities
 
   mongodump         - Create a binary dump of the contents of a database.
   mongorestore      - Restore data from the output created by mongodump.
@@ -21,11 +22,11 @@ UTILITIES
   mongotop          - Track time spent reading and writing data.
   install_compass   - Installs MongoDB Compass for your platform.
 
-BUILDING
+## Building
 
   See docs/building.md.
 
-RUNNING
+## Running
 
   For command line options invoke:
 
@@ -40,7 +41,7 @@ RUNNING
     $ ./mongo
     > help
 
-INSTALLING COMPASS
+## Install Compass 
 
   You can install compass using the install_compass script packaged with MongoDB:
 
@@ -49,30 +50,30 @@ INSTALLING COMPASS
   This will download the appropriate MongoDB Compass package for your platform
   and install it.
 
-DRIVERS
+## Drivers
 
   Client drivers for most programming languages are available at
   https://docs.mongodb.com/manual/applications/drivers/. Use the shell
   ("mongo") for administrative tasks.
 
-BUG REPORTS
+## Bug Reports
 
   See https://github.com/mongodb/mongo/wiki/Submit-Bug-Reports.
 
-PACKAGING
+## Packaging
 
   Packages are created dynamically by the package.py script located in the
   buildscripts directory. This will generate RPM and Debian packages.
 
-DOCUMENTATION
+## Documentation
 
   https://docs.mongodb.com/manual/
 
-CLOUD HOSTED MONGODB
+## Cloud Hosted MongoDB
 
   https://www.mongodb.com/cloud/atlas
 
-MAIL LISTS
+## Mail Lists
 
   https://groups.google.com/forum/#!forum/mongodb-user
 
@@ -82,11 +83,11 @@ MAIL LISTS
 
     A forum for technical questions about building and developing MongoDB.
 
-LEARN MONGODB
+## Learn MongoDB
 
   https://university.mongodb.com/
 
-LICENSE
+## License
 
   MongoDB is free and the source is available. Versions released prior to
   October 16, 2018 are published under the AGPL. All versions released after
