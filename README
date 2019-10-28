@@ -3,7 +3,7 @@
 
 Welcome to MongoDB!
 
-## Components
+## Examples
 
   mongod - The database server.
   mongos - Sharding router.
